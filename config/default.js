@@ -83,6 +83,16 @@ export default {
     reissueIntervalSec: 1800,
   },
 
+  betaChannel: {
+    // Set to true to enable 'Use the beta version' switcher in settings
+    enabled: false,
+    // Is the current instance is a beta instance?
+    isBeta: false,
+    subHeading: 'Beta',
+    cookieName: 'beta_channel',
+    cookieValue: '1',
+  },
+
   eslint: {
     // By default the eslint-linebreak-style directive requires "windows" linebreaks
     // on Windows platform and "unix" linebreaks otherwise.

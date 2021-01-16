@@ -1155,3 +1155,10 @@ export function closeAuthSessions(ids) {
     payload: ids,
   };
 }
+
+export function setBetaChannel(enabled) {
+  return {
+    type: ActionTypes.SET_BETA_CHANNEL,
+    payload: enabled,
+  };
+}
