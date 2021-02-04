@@ -86,4 +86,6 @@ export default {
     // to "windows" or "unix".
     linebreakStyle: null,
   },
+
+  minPasswordLength: 9,
 };
