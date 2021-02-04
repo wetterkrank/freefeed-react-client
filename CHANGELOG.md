@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.94.0] - Not released
 ### Fixed
 - Tiktok previews work for videos with empty title
+- Group screennames in the right menu and in the page titles now updates in the
+  real time
 
 ### Changed
 - Optimized build results: split code in smaller js-bundles, pre-compress js/css files
