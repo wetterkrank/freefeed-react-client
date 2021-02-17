@@ -88,4 +88,11 @@ export default {
   },
 
   minPasswordLength: 9,
+
+  maxLength: {
+    post: 3000,
+    comment: 3000,
+    description: 1500,
+  },
+
 };
